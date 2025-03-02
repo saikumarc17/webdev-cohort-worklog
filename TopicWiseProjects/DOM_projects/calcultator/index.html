@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <title>Document</title>
+    </head>
+    <body class="flex justify-center items-center h-screen bg-sky-950">
+        
+        <div class="text-white border rounded-xl text-center border-red-50 p-3 h-[500px] w-[350px] " >
+            <h2 id="viewConsole" class="text-3xl border rounded-xl   my-3 py-3" >&nbsp;</h2>
+            <div class="flex" >
+                <div class="grid grid-rows-4 grid-cols-4 gap-x-4 gap-y-2 grid-flow-row-dense">
+                    <button class="p-1 col-span-2 hover:bg-white hover:text-black  h-[70px] border rounded text-2xl rounded-full " id="clear" >C</button><!-- clear -->
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full col-start-4" id="add" >+</button><!-- addition -->
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full col-start-4" id="sub" >-</button><!-- subraction -->
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full col-start-4" id="mul" >*</button><!-- multiplication -->
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full col-start-4" id="div" >÷</button><!-- division -->
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="percent" >%</button><!-- percentile -->
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num1" >1</button>
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num2" >2</button>
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num3" >3</button>
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num4" >4</button>
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num5" >5</button>
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num6" >6</button>
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num7" >7</button>
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num8" >8</button>
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num9" >9</button>
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="point" >.</button><!-- point perator -->
+                    <button class="p-1 hover:bg-white hover:text-black w-[70px] h-[70px] border rounded text-2xl rounded-full " id="num0" >0</button>
+                    <button class="p-1 hover:bg-white hover:text-black col-span-2 h-[70px] border rounded text-2xl rounded-full "  id="calculate" >=</button><!-- calculate -->
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

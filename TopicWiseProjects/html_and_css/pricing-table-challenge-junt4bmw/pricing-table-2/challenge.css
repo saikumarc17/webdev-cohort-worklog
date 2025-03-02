@@ -1,0 +1,157 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color:#1a1a1a;
+  color: #ffffff;
+}
+
+.container {
+  /* display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+.header {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #ff6b6b;
+}
+
+.subtitle {
+  color: #888888;
+}
+
+.pricing-container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  height: 90vh;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.pricing-card:hover {
+  /* Add your styles here */
+}
+
+.card-header {
+
+}
+
+.icon {
+  font-size: 35px;
+}
+
+.popular-tag {
+  background-color: #ffd93d;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 15px;
+  position: absolute;
+  top: -20px;
+  left: 75px;
+}
+
+.price-block {
+  background-color: #303030;
+  padding: 5px 25px;
+  border-radius: 10px;
+}
+
+.price {
+  color: #ff6b6b;
+  font-size: 30px;
+}
+
+.period {
+  color: #7a7a7a;
+}
+
+.features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.features li {
+  color: #d2d2d2;
+}
+
+.features li.disabled {
+  color: #606060;
+}
+
+.join-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #e06161;
+  background-color: #262626;
+  color: #e06161;
+}
+
+.join-btn:hover {
+  /* Add your styles here */
+}
+
+/* Custom Class Modifiers */
+.beginner{
+  border: 1px solid #353535;
+}
+.warrior {
+  position: relative;
+  background-color: #312222;
+  border: 1px solid #f96969;
+}
+
+.champion {
+  background-color: #312d1d;
+  border: 1px solid #af9630;
+  
+  /* Add your styles here */
+}
+
+.champion .price {
+  color: #ffd93d;
+  /* Add your styles here */
+}
+
+.champion .join-btn {
+  color: #fcd73c;
+  border: 2px solid #fcd73c;
+  /* Add your styles here */
+}
+
+.champion .join-btn:hover {
+  /* Add your styles here */
+}
